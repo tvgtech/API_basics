@@ -1,0 +1,8 @@
+crear la imagen:
+    docker build -t nombre_imagen .
+
+ver imagenes creadas:
+    docker images 
+
+montar Docker:
+    docker run -d -p 5000:5000 nombre_imagen
